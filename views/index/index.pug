@@ -1,0 +1,36 @@
+extends ../layout/index
+
+block slider
+    .slider 
+        h1 Rio de Janeiro
+        em aventura
+
+block contenido 
+    main.container.my-5
+        h2.text-center.mb-5 Sobre Nosotros
+        .row
+            .col-md-6
+                p Lorem, ipsum dolor sit amet consectetur   adipisicing elit. Commodi amet delectus deleniti  corporis sapiente assumenda maiores vero veniam  repudiandae fugiat tempora explicabo, enim totam     voluptatem. Lorem ipsum dolor sit amet  consectetur adipisicing elit. Reprehenderit,     consequuntur.
+
+                p Lorem, ipsum dolor sit amet   consecteturadipisicing elit. Commodi amet     delectus deleniticorporis sapiente assumenda    maiores vero veniamrepudiandae fugiat tempora  explicabo, enim totamvoluptatem. Lorem ipsum     dolor sit amet consectetur adipisicing elit. Et,    ipsam.
+
+            .col-md-6
+                img(src="/img/inicio_nosotros.jpg" class="img-fluid")
+        
+        h2.text-center.my-5 Proximos Viajes
+        include ../layout/partials/viajes
+    
+    .descuento
+        .container
+            .row
+                .col-md-6
+                    .contenido
+
+                        h3 5% de descuento
+                        p.titulo Viaje a Canada
+                        p.fecha 20 de Marzo 2020 - 28 de Marzo de 2020
+                        p.precio $2,500 USD
+                        
+    .container
+        h2.text-center.my-5 Testimoniales
+        include ../layout/partials/testimoniales
