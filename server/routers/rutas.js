@@ -10,9 +10,9 @@ const testimonialesController=require('../controllers/testimonialesController')
 
 //Rutas
 
-// router.get("/",homeController.consultaHomePage);
+router.get("/",homeController.consultaHomePage);
 
-router.get("/",nosotrosController.infoNosotros);
+router.get("/nosotros",nosotrosController.infoNosotros);
 
 router.get("/viajes",viajesController.mostrarViajes);
 
